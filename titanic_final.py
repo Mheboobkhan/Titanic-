@@ -61,28 +61,3 @@ Prediction = classifier.predict(Test)
 submission = pd.DataFrame({ 'PassengerId': Test[:,0],
                             'Survived': Prediction })
 submission.to_csv("submission.csv", index=False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
