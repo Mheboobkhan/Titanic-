@@ -1,6 +1,4 @@
-# ML Data preprocessing template 
 # importing libarary 
-
 
 import numpy as np 
 import matplotlib.pyplot as plt 
